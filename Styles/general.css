@@ -1,0 +1,35 @@
+body {
+  font-family: "Circular Book";
+  height: 3000px;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  display: flex;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+p {
+  color: white;
+  text-decoration: none;
+}
+
+.song-link {
+  display: inherit;
+  gap: inherit;
+  align-items: inherit;
+  height: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+}
+
+@font-face {
+  font-family: Circular Book;
+  src: url(Circular\ Font/CircularStd-Book.otf);
+}

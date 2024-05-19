@@ -1,0 +1,317 @@
+@font-face {
+  font-family: Circular Book;
+  src: url(Circular\ Font/CircularStd-Book.otf);
+}
+
+.right-bar {
+  overflow-x: hidden;
+  display: grid;
+  grid-template-rows: 1fr 4fr 1.3fr 3fr 2fr;
+  width: 417px;
+  background-color: rgba(28, 28, 28, 0.452);
+  position: fixed;
+  bottom: 94px;
+  top: 9px;
+  right: 10px;
+  border-radius: 10px;
+  overflow-y: scroll;
+  row-gap: 5px;
+}
+
+.playlist-name {
+  font-weight: bold;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  display: flex;
+  justify-content: center;
+  gap: 16rem;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.top-buttons {
+  display: flex;
+  gap: 1rem;
+}
+.playlist-name img {
+  width: 18px;
+  height: 18px;
+}
+
+.top-pl-name p {
+  font-size: 14px;
+}
+
+.big-song-album-cover {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.big-album-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.song-title-author-container {
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.song-title-author {
+}
+
+.song-title-author .song-title {
+  font-weight: bolder;
+  margin-top: 5px;
+  font-size: 22px;
+}
+
+.song-title-author .author {
+  margin-top: 4px;
+  font-size: 15px;
+  color: rgb(141, 141, 141);
+}
+
+.song-title-author-container img {
+  width: 22px;
+  height: 22px;
+}
+
+.lyrics-box {
+  background-color: rgb(28, 28, 28);
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 16px;
+}
+
+.lyrics-box button {
+  background-color: rgb(28, 28, 28);
+  height: 35px;
+  color: white;
+  border: 1px solid #b3b3b3;
+  border-radius: 25px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 15px;
+  font-family: "Circular Std Black";
+  transition: background-color 0.3s ease-in-out;
+}
+
+.lyrics-box button:hover {
+  border: 1px solid white;
+}
+
+.lyrics-box button:active {
+  background-color: white;
+  color: black;
+}
+
+.about-artist {
+  font-family: Circular Book;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: rgb(28, 28, 28);
+  width: 388px;
+  height: 465px;
+  font-weight: normal;
+}
+
+.info-artist-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.artist-photo-cover {
+  top: 0px;
+}
+
+.abt {
+  z-index: 1;
+  position: absolute;
+  top: 1.5rem;
+  left: 1rem;
+}
+.artist-photo-cover img {
+  filter: brightness(85%);
+  border-radius: 10px 10px 0 0;
+  width: 388px;
+  height: 284px;
+  object-fit: cover;
+}
+
+.artist-text-info {
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.author-info {
+  margin-top: 10px;
+}
+.monthly-listeners {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(161, 161, 161);
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.about-band {
+  color: rgb(161, 161, 161);
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+
+.follow-button-container {
+}
+
+.follow-button-container button {
+  background-color: rgb(28, 28, 28);
+  height: 35px;
+  color: white;
+  border: 1px solid #b3b3b3;
+  border-radius: 25px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 12px;
+  font-family: "Circular Std Black";
+  transition: background-color 0.3s ease-in-out;
+}
+
+.follow-button-container button:hover {
+  border: 1px solid white;
+}
+
+.follow-button-container button:active {
+  background-color: white;
+  color: black;
+}
+
+.credits {
+  background-color: rgb(28, 28, 28);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 15px 15px 15px 15px;
+  border-radius: 10px;
+}
+
+.top-part {
+  margin-bottom: 15px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.show-all {
+  color: rgb(161, 161, 161);
+}
+
+.bottom-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.role {
+  color: rgb(161, 161, 161);
+  font-size: 15px;
+}
+
+.band-role .author-band {
+  color: rgb(243, 243, 243);
+  font-weight: normal;
+  margin-bottom: 3px;
+}
+
+.next-song-queue {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  background-color: rgb(28, 28, 28);
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.top-part-queue {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.open-queue {
+  color: rgb(161, 161, 161);
+}
+
+.bottom-part-queue {
+  display: flex;
+  height: 70px;
+  width: 90;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.bottom-part-queue:hover {
+  background-color: rgba(211, 211, 211, 0.1);
+}
+.info-queue-song {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+.queue-song-album {
+  z-index: 1;
+  border-radius: 5px;
+  margin-right: 15px;
+  width: 52px;
+  height: 52px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.music-note {
+  margin-right: 10px;
+  padding-left: 10px;
+  width: 15px;
+}
+
+.queue-song-album-container {
+  z-index: 200;
+  margin-right: 10px;
+  width: 52px;
+  height: 52px;
+}
+
+.song-title-queue {
+}
+.author-queue {
+  color: #b3b3b3;
+}
